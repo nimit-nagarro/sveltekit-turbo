@@ -15,7 +15,10 @@
 		"test:unit": "vitest"
 	},
 	"dependencies": {
-		"@repo/ui": "workspace:*"
+		"@repo/common": "workspace:*",
+		"@repo/core": "workspace:*",
+		"@repo/employee": "workspace:*",
+		"@repo/registration": "workspace:*"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.42.1",
