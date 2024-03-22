@@ -1,1 +1,1 @@
-export * from './src/types';
+export { employee } from './src/types/type1';

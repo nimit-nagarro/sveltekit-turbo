@@ -10,8 +10,7 @@
 	},
 	"dependencies": {
 		"esm-env": "^1.0.0",
-		"tsconfig": "workspace:*",
-		"@repo/common": "workspace:*"
+		"tsconfig": "workspace:*"
 	},
 	"devDependencies": {
 		"@sveltejs/vite-plugin-svelte": "^3.0.2",

@@ -230,9 +230,6 @@ importers:
 
   packages/employee:
     dependencies:
-      '@repo/common':
-        specifier: workspace:*
-        version: link:../common
       esm-env:
         specifier: ^1.0.0
         version: 1.0.0
@@ -294,9 +291,6 @@ importers:
 
   packages/registration:
     dependencies:
-      '@repo/common':
-        specifier: workspace:*
-        version: link:../common
       esm-env:
         specifier: ^1.0.0
         version: 1.0.0
