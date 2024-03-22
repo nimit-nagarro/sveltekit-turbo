@@ -2,7 +2,7 @@
 <script>
   import { generateRandomNumber } from '../utils/util2';
   import { MIN_LENGTH } from '../constants/constant2';
-  import { text, setText } from '../stores/store2';
+  // import { text, setText } from '../stores/store2';
 
   let randomNumber = generateRandomNumber(1, 100);
   let inputValue = '';
@@ -17,7 +17,7 @@
 
   function saveText() {
     if (inputValue.length >= MIN_LENGTH) {
-      setText(inputValue);
+      // setText(inputValue);
     } else {
       alert(`Minimum length should be ${MIN_LENGTH}`);
     }

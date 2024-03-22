@@ -3,7 +3,6 @@
 	import { capitalizeFirstLetter } from '../utils/util1';
 	import { API_URL } from '../constants/constant1';
 	import { count, increment, decrement } from '../stores/store1';
-	import { TestComponent1 as CommonTestComponent1 } from '@repo/common/components';
 
 	let name = 'world';
 	let greeting = 'Hello';
@@ -34,4 +33,3 @@
 <h3>
 	Coming from Common component:
 </h3>
-<CommonTestComponent1/>

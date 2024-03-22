@@ -4,9 +4,9 @@
 	import { API_URL } from '$lib/constant';
 	import { Component1 } from '@repo/common/components';
 	import { CoreComponent } from '@repo/core/components';
-	import { count } from '@repo/common/stores';
+	// import { count } from '@repo/common/stores';
 	import { goto } from '$app/navigation';
-	$: console.log($count);
+	// $: console.log($count);
 	let data;
 	$: {
 		routeData.subscribe((value) => {

@@ -34,16 +34,6 @@
 	"type": "module",
 	"main": "./dist/common.js",
 	"module": "./dist/common.mjs",
-	"exports": {
-		".": {
-			"svelte": "./dist/common.js"
-		},
-		"./types": "./types.ts",
-		"./constants": "./constants.ts",
-		"./utils": "./utils.ts",
-		"./stores": "./stores.ts",
-		"./components": "./components.ts"
-	},
 	"packageManager": "pnpm@8.5.0",
 	"engines": {
 		"pnpm": ">= 8.5.0",
